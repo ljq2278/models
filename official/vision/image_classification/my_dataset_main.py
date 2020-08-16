@@ -1,3 +1,5 @@
+# 运行参数： --model_dir=E:\model\official_myDataset --data_dir=E:\data\my_dataset --train_epochs=10 --distribution_strategy=one_device --num_gpus=1 --download
+
 # Copyright 2018 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");

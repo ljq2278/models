@@ -1,0 +1,2 @@
+将他们加到tensorflow_dataset包里，并在对应模块进行注册
+如放到image下，则在image包的init文件中添加 from tensorflow_datasets.image.my_dataset import MyDataset
