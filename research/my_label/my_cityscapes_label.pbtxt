@@ -1,0 +1,175 @@
+item {
+  name: "background"
+  id: 0
+  display_name: "background"
+}
+item {
+  name: "sky"
+  id: 1
+  display_name: "sky"
+}
+item {
+  name: "road"
+  id: 2
+  display_name: "road"
+}
+item {
+  name: "sidewalk"
+  id: 3
+  display_name: "sidewalk"
+}
+item {
+  name: "vegetation"
+  id: 4
+  display_name: "vegetation"
+}
+item {
+  name: "pole"
+  id: 5
+  display_name: "pole"
+}
+item {
+  name: "building"
+  id: 6
+  display_name: "building"
+}
+item {
+  name: "traffic sign"
+  id: 7
+  display_name: "traffic sign"
+}
+item {
+  name: "fence"
+  id: 8
+  display_name: "fence"
+}
+item {
+  name: "person"
+  id: 9
+  display_name: "person"
+}
+item {
+  name: "car"
+  id: 10
+  display_name: "car"
+}
+item {
+  name: "cargroup"
+  id: 11
+  display_name: "cargroup"
+}
+item {
+  name: "bicycle"
+  id: 12
+  display_name: "bicycle"
+}
+item {
+  name: "rider"
+  id: 13
+  display_name: "rider"
+}
+item {
+  name: "parking"
+  id: 14
+  display_name: "parking"
+}
+item {
+  name: "license plate"
+  id: 15
+  display_name: "license plate"
+}
+item {
+  name: "traffic light"
+  id: 16
+  display_name: "traffic light"
+}
+item {
+  name: "truck"
+  id: 17
+  display_name: "truck"
+}
+item {
+  name: "motorcycle"
+  id: 18
+  display_name: "motorcycle"
+}
+item {
+  name: "train"
+  id: 19
+  display_name: "train"
+}
+item {
+  name: "bus"
+  id: 20
+  display_name: "bus"
+}
+item {
+  name: "rail track"
+  id: 21
+  display_name: "rail track"
+}
+item {
+  name: "ground"
+  id: 22
+  display_name: "ground"
+}
+item {
+  name: "wall"
+  id: 23
+  display_name: "wall"
+}
+item {
+  name: "polegroup"
+  id: 24
+  display_name: "polegroup"
+}
+item {
+  name: "bicyclegroup"
+  id: 25
+  display_name: "bicyclegroup"
+}
+item {
+  name: "persongroup"
+  id: 26
+  display_name: "persongroup"
+}
+item {
+  name: "ridergroup"
+  id: 27
+  display_name: "ridergroup"
+}
+item {
+  name: "bridge"
+  id: 28
+  display_name: "bridge"
+}
+item {
+  name: "trailer"
+  id: 29
+  display_name: "trailer"
+}
+item {
+  name: "caravan"
+  id: 30
+  display_name: "caravan"
+}
+item {
+  name: "guard rail"
+  id: 31
+  display_name: "guard rail"
+}
+item {
+  name: "tunnel"
+  id: 32
+  display_name: "tunnel"
+}
+item {
+  name: "motorcyclegroup"
+  id: 33
+  display_name: "motorcyclegroup"
+}
+item {
+  name: "trunkgroup"
+  id: 34
+  display_name: "trunkgroup"
+}
