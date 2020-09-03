@@ -31,11 +31,12 @@ import tensorflow_datasets as tfds
 
 from official.utils.flags import core as flags_core
 from official.utils.misc import distribution_utils
-from official.utils.misc import model_helpers
-from official.vision.image_classification.resnet import common
-from sklearn.metrics import f1_score, precision_recall_fscore_support
-import numpy as np
-import json
+
+# from official.utils.misc import model_helpers
+# from official.vision.image_classification.resnet import common
+# from sklearn.metrics import f1_score, precision_recall_fscore_support
+# import numpy as np
+# import json
 
 FLAGS = flags.FLAGS
 
@@ -74,6 +75,9 @@ def run(flags_obj, datasets_override=None, strategy_override=None):
 
     strategy_scope = distribution_utils.get_strategy_scope(strategy)
 
+    # dsc = tfds.builder_cls('my_recom_dataset')
+    # rr = dsc(data_dir=flags_obj.data_dir)
+
     ds = tfds.builder('my_recom_dataset', data_dir=flags_obj.data_dir)
 
     if flags_obj.download:
@@ -107,10 +111,12 @@ def run(flags_obj, datasets_override=None, strategy_override=None):
             class_weight={0: 1, 1: 1}
         ))
 
+    export_path = os.path.join(flags_obj.model_dir, 'saved_model')
+    model.save(export_path, include_optimizer=False)
 
     return 'over'
 
-
+# tf.io.gfile.GFile().readlines()
 # %%
 def define_mnist_flags():
     """Define command line flags for MNIST model."""
