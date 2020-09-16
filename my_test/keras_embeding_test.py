@@ -41,6 +41,9 @@ from official.utils.misc import distribution_utils
 FLAGS = flags.FLAGS
 
 feat_to_onehot = [[3, 5, 10, 5], [4, 6, 4, 8]]
+
+from tensorflow.keras import layers
+# layers.Embedding()()
 # %%
 def build_model(desc_list_tuple):
     # desc_list_tuple描述了输入有几个特征，他们分别有多少特征值，每个特征值映射到几维向量。
